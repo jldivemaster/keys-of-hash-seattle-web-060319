@@ -1,10 +1,13 @@
 class Hash
   def keys_of(*arguments)
-    arr = []
-    if arguments.include?(self[key])
-      arr << key
-    end
-    return arr
+    map { |k, v| arguments.include?(v) ? k : nil }
+
+    #arr = []
+    #if 
+  #    arr << key
+  #  end
+  #  return arr
+  
 
   end
 end
