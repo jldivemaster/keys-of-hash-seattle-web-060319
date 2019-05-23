@@ -3,11 +3,11 @@ class Hash
     map { |k, v| arguments.include?(v) ? k : nil }
 
     #arr = []
-    #if 
+    #if
   #    arr << key
   #  end
   #  return arr
-  
+
 
   end
 end
