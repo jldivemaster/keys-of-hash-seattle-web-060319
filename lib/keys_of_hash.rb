@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     arr = []
-    if hash[key] == arguments
+    if arguments.include?(hash[key])
       arr << key
     end
     return arr
