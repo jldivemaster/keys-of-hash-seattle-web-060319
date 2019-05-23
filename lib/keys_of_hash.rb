@@ -5,6 +5,6 @@ class Hash
       arr << key
     end
     return arr
-    
+
   end
 end
