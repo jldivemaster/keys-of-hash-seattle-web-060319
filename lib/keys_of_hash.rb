@@ -1,8 +1,8 @@
 class Hash
   def keys_of(*arguments)
     arr = []
-      if hash.values.include?(arguments)
-        arr << hash.key
+      for hash[key] = arguments
+        arr << key
       end
     return arr
   end
